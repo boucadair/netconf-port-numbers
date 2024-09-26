@@ -12,7 +12,7 @@ v: 3
 area: "Operations and Management"
 workgroup: "Network Configuration"
 keyword:
- - transport
+ - de-assign
 
 
 author:
@@ -96,7 +96,7 @@ This document does not describe any protocol.
 # IANA Considerations
 
 This document requests IANA to update the "Service Name and Transport Protocol Port Number Registry"
-registry as specified in the following subsections.
+registry {{IANA-SERVICE}} as specified in the following subsections.
 
 ## NETCONF over SSH Service
 
