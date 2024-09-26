@@ -17,7 +17,7 @@ keyword:
 
 author:
  -
-    fullname: Mohamed Boucadaor
+    fullname: Mohamed Boucadair
     organization: Orange
     email: mohamed.boucadair@orange.com
 
@@ -85,11 +85,15 @@ Also, many of these assignments are for protocols that are not deployed and whic
 {: quote}
 > "have shown very little (if any) implementations and deployment"
 
+This document de-assigns these port numbers, that fall in the System
+Ports range.
+
 Consistent with {{Section 8.2 of ?RFC6335}}, this document does not request to de-assign service names; only port numbers (for specific transport protocols) are de-assigned for better usage of available scarce resources.
 
 # Security Considerations
 
-Releasing back some port number soften the exhaustion risk of available port number space.
+Releasing back some port number softens the exhaustion risk of available port number space (especially the System
+Ports range).
 
 This document does not describe any protocol.
 
