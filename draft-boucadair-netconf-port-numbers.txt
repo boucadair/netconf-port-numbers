@@ -2,7 +2,7 @@
 
 
 
-Network Configuration                                       M. Boucadaor
+Network Configuration                                       M. Boucadair
 Internet-Draft                                                    Orange
 Intended status: Standards Track                       26 September 2024
 Expires: 30 March 2025
@@ -158,6 +158,9 @@ Table of Contents
 
    |  "have shown very little (if any) implementations and deployment"
 
+   This document de-assigns these port numbers, that fall in the System
+   Ports range.
+
    Consistent with Section 8.2 of [RFC6335], this document does not
    request to de-assign service names; only port numbers (for specific
    transport protocols) are de-assigned for better usage of available
@@ -165,8 +168,8 @@ Table of Contents
 
 2.  Security Considerations
 
-   Releasing back some port number soften the exhaustion risk of
-   available port number space.
+   Releasing back some port number softens the exhaustion risk of
+   available port number space (especially the System Ports range).
 
    This document does not describe any protocol.
 
@@ -369,6 +372,6 @@ Acknowledgments
 
 Author's Address
 
-   Mohamed Boucadaor
+   Mohamed Boucadair
    Orange
    Email: mohamed.boucadair@orange.com
