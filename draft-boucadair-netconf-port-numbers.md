@@ -80,12 +80,12 @@ It is understood that these assignments were made when the practice at that time
 was to automatically assign a port number for both TCP and UDP, even if a request
 was for only one of these transport protocols.
 
-Also, many of these assignments are for protocols that are not deployed and which were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}. {{I-D.ietf-netconf-rfc4743-rfc4744-to-historic}} reported in 2012 that these two protocols:
+Also, many of these assignments are for protocols that are not deployed and which were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}. {{?I-D.ietf-netconf-rfc4743-rfc4744-to-historic}} reported in 2012 that these two protocols:
 
 {: quote}
 > "have shown very little (if any) implementations and deployment"
 
-Consistent with {{Section 8.2 of RFC6335}}, this document does not request to de-assign service names; only port numbers (for specific transport protocols) are de-assigned for better usage of available scarce resources.
+Consistent with {{Section 8.2 of ?RFC6335}}, this document does not request to de-assign service names; only port numbers (for specific transport protocols) are de-assigned for better usage of available scarce resources.
 
 # Security Considerations
 
@@ -128,7 +128,7 @@ NEW:
 
 |Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
 |-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconf-beep|||	NETCONF over BEEP	| {{?RFC4744}}THIS_DOCUMENT |
+|netconf-beep|||	NETCONF over BEEP	| {{?RFC4744}} THIS_DOCUMENT |
 
 A note can be added to 831 to indicate that the port number used to be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.
 
@@ -147,8 +147,8 @@ NEW:
 
 |Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
 |-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconfsoaphttp	| | |	NETCONF for SOAP over HTTPS|	{{?RFC4743}}THIS_DOCUMENT |
-|netconfsoapbeep	| | |	NETCONF for SOAP over BEEP |	{{?RFC4743}}THIS_DOCUMENT |
+|netconfsoaphttp	| | |	NETCONF for SOAP over HTTPS|	{{?RFC4743}} THIS_DOCUMENT |
+|netconfsoapbeep	| | |	NETCONF for SOAP over BEEP |	{{?RFC4743}} THIS_DOCUMENT |
 
 A note can be added to 832/833 to indicate that the port numbers used to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.
 
