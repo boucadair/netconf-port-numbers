@@ -51,7 +51,7 @@ TODO Introduction
 |netconf-ch-tls|4335|tcp|	NETCONF Call Home (TLS) |	{{?RFC8071}} |
 |netconf-tls|6513|tcp|	NETCONF over TLS	| {{?RFC7589}}[RFC-ietf-netconf-over-tls13-04] |
 
-{{Section 7 of ?RFC4744}} states the following: 
+{{Section 7 of ?RFC4744}} states the following:
 {: quote}
 >    IANA assigned TCP port (831) for NETCONF over BEEP.
 
