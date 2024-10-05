@@ -232,7 +232,7 @@ Table of Contents
     | Service Name |  Port  | Transport | Description |   Reference   |
     |              | Number |  Protocol |             |               |
     +==============+========+===========+=============+===============+
-    | netconf-beep |        |    tcp    | NETCONF     |   [RFC4744]   |
+    | netconf-beep |        |           | NETCONF     |   [RFC4744]   |
     |              |        |           | over BEEP   | THIS_DOCUMENT |
     +--------------+--------+-----------+-------------+---------------+
 
@@ -274,11 +274,11 @@ Table of Contents
    | Service Name    | Port | Transport | Description |   Reference   |
    |                 |Number|  Protocol |             |               |
    +=================+======+===========+=============+===============+
-   | netconfsoaphttp |      |    tcp    | NETCONF for |   [RFC4743]   |
+   | netconfsoaphttp |      |           | NETCONF for |   [RFC4743]   |
    |                 |      |           | SOAP over   | THIS_DOCUMENT |
    |                 |      |           | HTTPS       |               |
    +-----------------+------+-----------+-------------+---------------+
-   | netconfsoapbeep |      |    tcp    | NETCONF for |   [RFC4743]   |
+   | netconfsoapbeep |      |           | NETCONF for |   [RFC4743]   |
    |                 |      |           | SOAP over   | THIS_DOCUMENT |
    |                 |      |           | BEEP        |               |
    +-----------------+------+-----------+-------------+---------------+
