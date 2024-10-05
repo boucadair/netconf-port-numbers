@@ -132,7 +132,7 @@ NEW:
 
 |Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
 |-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconf-beep||tcp|	NETCONF over BEEP	| {{?RFC4744}} THIS_DOCUMENT |
+|netconf-beep|||	NETCONF over BEEP	| {{?RFC4744}} THIS_DOCUMENT |
 
 A note can be added to 831 to indicate that the port number used to be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.
 
@@ -151,8 +151,8 @@ NEW:
 
 |Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
 |-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconfsoaphttp	| |tcp |	NETCONF for SOAP over HTTPS|	{{?RFC4743}} THIS_DOCUMENT |
-|netconfsoapbeep	| |tcp |	NETCONF for SOAP over BEEP |	{{?RFC4743}} THIS_DOCUMENT |
+|netconfsoaphttp	| | |	NETCONF for SOAP over HTTPS|	{{?RFC4743}} THIS_DOCUMENT |
+|netconfsoapbeep	| | |	NETCONF for SOAP over BEEP |	{{?RFC4743}} THIS_DOCUMENT |
 
 A note can be added to 832/833 to indicate that the port numbers used to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.
 
