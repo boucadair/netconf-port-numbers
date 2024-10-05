@@ -52,7 +52,7 @@ for various NETCONF transports.
 |netconfsoapbeep|	833|udp|	NETCONF for SOAP over BEEP	| {{?RFC4743}} |
 |netconf-ch-ssh|4334|tcp|	NETCONF Call Home (SSH) |	{{?RFC8071}} |
 |netconf-ch-tls|4335|tcp|	NETCONF Call Home (TLS) |	{{?RFC8071}} |
-|netconf-tls|6513|tcp|	NETCONF over TLS	| {{?RFC7589}}[RFC-ietf-netconf-over-tls13-04] |
+|netconf-tls|6513|tcp|	NETCONF over TLS	| {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}} |
 
 Many of these assignments are for a transport protocol (UDP) for which
 the requesting application does not apply. For example:
@@ -132,7 +132,7 @@ NEW:
 
 |Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
 |-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconf-beep|||	NETCONF over BEEP	| {{?RFC4744}} THIS_DOCUMENT |
+|netconf-beep||tcp|	NETCONF over BEEP	| {{?RFC4744}} THIS_DOCUMENT |
 
 A note can be added to 831 to indicate that the port number used to be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.
 
@@ -151,24 +151,11 @@ NEW:
 
 |Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
 |-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconfsoaphttp	| | |	NETCONF for SOAP over HTTPS|	{{?RFC4743}} THIS_DOCUMENT |
-|netconfsoapbeep	| | |	NETCONF for SOAP over BEEP |	{{?RFC4743}} THIS_DOCUMENT |
+|netconfsoaphttp	| |tcp |	NETCONF for SOAP over HTTPS|	{{?RFC4743}} THIS_DOCUMENT |
+|netconfsoapbeep	| |tcp |	NETCONF for SOAP over BEEP |	{{?RFC4743}} THIS_DOCUMENT |
 
 A note can be added to 832/833 to indicate that the port numbers used to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.
 
-## NETCONF over TLS Service
-
-OLD:
-
-|Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
-|-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconf-tls|6513|tcp|	NETCONF over TLS	| {{?RFC7589}}[RFC-ietf-netconf-over-tls13-04] |
-
-NEW:
-
-|Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
-|-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconf-tls|6513|tcp|	NETCONF over TLS	| {{?RFC7589}}{{?RFC8446}}THIS_DOCUMENT|
 
 --- back
 
