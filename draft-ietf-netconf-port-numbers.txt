@@ -73,69 +73,27 @@ Table of Contents
 
 1.  Introduction
 
-   Table 1 lists currently (per 2025) assigned port numbers
-   [IANA-SERVICE] for various NETCONF transports.
+   The "Service Name and Transport Protocol Port Number Registry"
+   [IANA-SERVICE] records several NETCONF-related port and service name
+   assignments such as 830 for NETCONF over Secure Shell (SSH)
+   [RFC6242], 831 for NETCONF over the Blocks Extensible Exchange
+   Protocol (BEEP) [RFC4744], 832 for NETCONF over the Simple Object
+   Access Protocol (SOAP) [RFC4743], 4334 for NETCONF Call Home
+   [RFC8071], and 6513 for NETCONF over Transport Layer Security (TLS)
+   [RFC7589][I-D.ietf-netconf-over-tls13].
 
-   +===============+======+=========+===========+======================================+
-   |Service Name   | Port |Transport|Description|              Reference               |
-   |               |Number| Protocol|           |                                      |
-   +===============+======+=========+===========+======================================+
-   |netconf-ssh    | 830  |   tcp   |NETCONF    |              [RFC6242]               |
-   |               |      |         |over SSH   |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconf-ssh    | 830  |   udp   |NETCONF    |              [RFC6242]               |
-   |               |      |         |over SSH   |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconf-beep   | 831  |   tcp   |NETCONF    |              [RFC4744]               |
-   |               |      |         |over BEEP  |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconf-beep   | 831  |   udp   |NETCONF    |              [RFC4744]               |
-   |               |      |         |over BEEP  |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconfsoaphttp| 832  |   tcp   |NETCONF for|              [RFC4743]               |
-   |               |      |         |SOAP over  |                                      |
-   |               |      |         |HTTPS      |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconfsoaphttp| 832  |   udp   |NETCONF for|              [RFC4743]               |
-   |               |      |         |SOAP over  |                                      |
-   |               |      |         |HTTPS      |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconfsoapbeep| 833  |   tcp   |NETCONF for|              [RFC4743]               |
-   |               |      |         |SOAP over  |                                      |
-   |               |      |         |BEEP       |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconfsoapbeep| 833  |   udp   |NETCONF for|              [RFC4743]               |
-   |               |      |         |SOAP over  |                                      |
-   |               |      |         |BEEP       |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconf-ch-ssh | 4334 |   tcp   |NETCONF    |              [RFC8071]               |
-   |               |      |         |Call Home  |                                      |
-   |               |      |         |(SSH)      |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconf-ch-tls | 4335 |   tcp   |NETCONF    |              [RFC8071]               |
-   |               |      |         |Call Home  |                                      |
-   |               |      |         |(TLS)      |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
-   |netconf-tls    | 6513 |   tcp   |NETCONF    |[RFC7589][I-D.ietf-netconf-over-tls13]|
-   |               |      |         |over TLS   |                                      |
-   +---------------+------+---------+-----------+--------------------------------------+
+   However, many of these assignments are for a transport protocol
+   (i.e., UDP) for which the requesting application does not apply.
 
-          Table 1: Excerpt of Current NETCONF-related Assignments
+   It is understood that these assignments were made when the practice
+   at that time (prior to 2011) was to automatically assign a port
+   number for both TCP and UDP, even if a request was for only one of
+   these transport protocols.
 
-   Many of these assignments are for a transport protocol (UDP) for
-   which the requesting application does not apply.  Readers may refer
-   to Section 7 of [RFC4744], Section 7 of [RFC6242], and Section 5 of
-   [RFC4743] for more details.
-
-   It is understood that the assignments listed in Table 1 were made
-   when the practice at that time (prior to 2011) was to automatically
-   assign a port number for both TCP and UDP, even if a request was for
-   only one of these transport protocols.
-
-   Also, many of the assignments listed in Table 1 are for protocols
-   that are not deployed and which were tagged as Historic: [RFC4743]
-   and [RFC4744].  [I-D.ietf-netconf-rfc4743-rfc4744-to-historic]
-   reported in 2012 that these two protocols:
+   Also, many of the assignments are for protocols that are not deployed
+   and which were tagged as Historic: [RFC4743] and [RFC4744].
+   [I-D.ietf-netconf-rfc4743-rfc4744-to-historic] reported in 2012 that
+   these two protocols:
 
    |  "have shown very little (if any) implementations and deployment"
 
@@ -178,7 +136,7 @@ Table of Contents
    |              |             |           | over SSH    |           |
    +--------------+-------------+-----------+-------------+-----------+
 
-                                 Table 2
+                                 Table 1
 
    NEW:
 
@@ -190,11 +148,10 @@ Table of Contents
    |              |             |           | over SSH    |           |
    +--------------+-------------+-----------+-------------+-----------+
 
-                                 Table 3
+                                 Table 2
 
-   A note should be added to 830/udp to indicate that the port number
-   used to be assigned to NETCONF over SSH but released by
-   THIS_DOCUMENT.
+   A note can be added to 830/udp to indicate that the port number used
+   to be assigned to NETCONF over SSH but released by THIS_DOCUMENT.
 
 3.2.  NETCONF over BEEP Service
 
@@ -211,7 +168,7 @@ Table of Contents
    |              |             |           | over BEEP   |           |
    +--------------+-------------+-----------+-------------+-----------+
 
-                                 Table 4
+                                 Table 3
 
    NEW:
 
@@ -223,10 +180,10 @@ Table of Contents
     |              |        |           | over BEEP   | THIS_DOCUMENT |
     +--------------+--------+-----------+-------------+---------------+
 
-                                  Table 5
+                                  Table 4
 
-   A note should be added to 831 to indicate that the port number used
-   to be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.
+   A note can be added to 831 to indicate that the port number used to
+   be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.
 
 3.3.  NETCONF over SOAP Service
 
@@ -253,7 +210,7 @@ Table of Contents
     |                 |        |           | BEEP        |           |
     +-----------------+--------+-----------+-------------+-----------+
 
-                                 Table 6
+                                 Table 5
 
    NEW:
 
@@ -270,11 +227,10 @@ Table of Contents
    |                 |      |           | BEEP        |               |
    +-----------------+------+-----------+-------------+---------------+
 
-                                 Table 7
+                                 Table 6
 
-   A note should be added to 832/833 to indicate that the port numbers
-   used to be assigned to NETCONF over SOAP but released by
-   THIS_DOCUMENT.
+   A note can be added to 832/833 to indicate that the port numbers used
+   to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.
 
 4.  Informative References
 
