@@ -14,7 +14,7 @@ for inappropriate transport protocols or for an Historic NETCONF-related protoco
 <meta content="de-assign" name="keyword">
 <meta content="deallocate" name="keyword">
 <meta content="release" name="keyword">
-<meta content="draft-boucadair-netconf-port-numbers-latest" name="ietf.draft">
+<meta content="draft-ietf-netconf-port-numbers-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.27.0
     Python 3.12.9
@@ -30,7 +30,7 @@ for inappropriate transport protocols or for an Historic NETCONF-related protoco
     setuptools 70.3.0
     wcwidth 0.2.13
 -->
-<link href="draft-boucadair-netconf-port-numbers.xml" rel="alternate" type="application/rfc+xml">
+<link href="draft-ietf-netconf-port-numbers.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
 <style type="text/css">@font-face {
   font-family: 'Lora';
@@ -1061,7 +1061,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dt class="label-workgroup">Workgroup:</dt>
 <dd class="workgroup">Network Configuration</dd>
 <dt class="label-internet-draft">Internet-Draft:</dt>
-<dd class="internet-draft">draft-boucadair-netconf-port-numbers-latest</dd>
+<dd class="internet-draft">draft-ietf-netconf-port-numbers-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
 <time datetime="2025-02-24" class="published">24 February 2025</time>
@@ -1182,10 +1182,14 @@ for inappropriate transport protocols or for an Historic NETCONF-related protoco
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">The following table lists currently (per 2024) assigned port numbers <span>[<a href="#IANA-SERVICE" class="cite xref">IANA-SERVICE</a>]</span>
+<p id="section-1-1"><a href="#old" class="auto internal xref">Table 1</a> lists currently (per 2025) assigned port numbers <span>[<a href="#IANA-SERVICE" class="cite xref">IANA-SERVICE</a>]</span>
 for various NETCONF transports.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<span id="name-excerpt-of-current-netconf-"></span><div id="old">
 <table class="center" id="table-1">
-        <caption><a href="#table-1" class="selfRef">Table 1</a></caption>
+        <caption>
+<a href="#table-1" class="selfRef">Table 1</a>:
+<a href="#name-excerpt-of-current-netconf-" class="selfRef">Excerpt of Current NETCONF-related Assignments</a>
+        </caption>
 <thead>
           <tr>
             <th class="text-left" rowspan="1" colspan="1">Service Name</th>
@@ -1297,46 +1301,19 @@ for various NETCONF transports.<a href="#section-1-1" class="pilcrow">¶</a></p>
           </tr>
         </tbody>
       </table>
+</div>
 <p id="section-1-3">Many of these assignments are for a transport protocol (UDP) for which
-the requesting application does not apply. For example:<a href="#section-1-3" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-1-4.1">
-          <p id="section-1-4.1.1">"Using the NETCONF Protocol over the Blocks Extensible Exchange Protocol (BEEP)"
-specification (<span><a href="https://rfc-editor.org/rfc/rfc4744#section-7" class="relref">Section 7</a> of [<a href="#RFC4744" class="cite xref">RFC4744</a>]</span>) states the following:<a href="#section-1-4.1.1" class="pilcrow">¶</a></p>
-</li>
-      </ul>
-<blockquote id="section-1-5">
-        <p id="section-1-5.1">IANA assigned TCP port (831) for NETCONF over BEEP.<a href="#section-1-5.1" class="pilcrow">¶</a></p>
-</blockquote>
-<ul class="normal">
-<li class="normal" id="section-1-6.1">
-          <p id="section-1-6.1.1">"Using the NETCONF Protocol over Secure Shell (SSH)" specification (<span><a href="https://rfc-editor.org/rfc/rfc6242#section-7" class="relref">Section 7</a> of [<a href="#RFC6242" class="cite xref">RFC6242</a>]</span>) states the following:<a href="#section-1-6.1.1" class="pilcrow">¶</a></p>
-</li>
-      </ul>
-<blockquote id="section-1-7">
-        <p id="section-1-7.1">Based on the previous version of this document, RFC 4742, IANA
-  assigned the TCP port 830 as the default port for NETCONF over SSH
- sessions.<a href="#section-1-7.1" class="pilcrow">¶</a></p>
-</blockquote>
-<ul class="normal">
-<li class="normal" id="section-1-8.1">
-          <p id="section-1-8.1.1">"Using NETCONF over the Simple Object Access Protocol (SOAP)" specification (<span><a href="https://rfc-editor.org/rfc/rfc4743#section-5" class="relref">Section 5</a> of [<a href="#RFC4743" class="cite xref">RFC4743</a>]</span>) states the following:<a href="#section-1-8.1.1" class="pilcrow">¶</a></p>
-</li>
-      </ul>
-<blockquote id="section-1-9">
-        <p id="section-1-9.1">IANA assigned TCP port (833) for NETCONF over SOAP over BEEP, and TCP
-port (832) for NETCONF over SOAP over HTTPS.<a href="#section-1-9.1" class="pilcrow">¶</a></p>
-</blockquote>
-<p id="section-1-10">It is understood that these assignments were made when the practice at that time (prior to 2011)
+the requesting application does not apply. Readers may refer to <span><a href="https://rfc-editor.org/rfc/rfc4744#section-7" class="relref">Section 7</a> of [<a href="#RFC4744" class="cite xref">RFC4744</a>]</span>, <span><a href="https://rfc-editor.org/rfc/rfc6242#section-7" class="relref">Section 7</a> of [<a href="#RFC6242" class="cite xref">RFC6242</a>]</span>, and <span><a href="https://rfc-editor.org/rfc/rfc4743#section-5" class="relref">Section 5</a> of [<a href="#RFC4743" class="cite xref">RFC4743</a>]</span> for more details.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">It is understood that the assignments listed in <a href="#old" class="auto internal xref">Table 1</a> were made when the practice at that time (prior to 2011)
 was to automatically assign a port number for both TCP and UDP, even if a request
-was for only one of these transport protocols.<a href="#section-1-10" class="pilcrow">¶</a></p>
-<p id="section-1-11">Also, many of these assignments are for protocols that are not deployed and which were tagged as Historic: <span>[<a href="#RFC4743" class="cite xref">RFC4743</a>]</span> and <span>[<a href="#RFC4744" class="cite xref">RFC4744</a>]</span>. <span>[<a href="#I-D.ietf-netconf-rfc4743-rfc4744-to-historic" class="cite xref">I-D.ietf-netconf-rfc4743-rfc4744-to-historic</a>]</span> reported in 2012 that these two protocols:<a href="#section-1-11" class="pilcrow">¶</a></p>
-<blockquote id="section-1-12">
-        <p id="section-1-12.1">"have shown very little (if any) implementations and deployment"<a href="#section-1-12.1" class="pilcrow">¶</a></p>
+was for only one of these transport protocols.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-5">Also, many of the assignments listed in <a href="#old" class="auto internal xref">Table 1</a> are for protocols that are not deployed and which were tagged as Historic: <span>[<a href="#RFC4743" class="cite xref">RFC4743</a>]</span> and <span>[<a href="#RFC4744" class="cite xref">RFC4744</a>]</span>. <span>[<a href="#I-D.ietf-netconf-rfc4743-rfc4744-to-historic" class="cite xref">I-D.ietf-netconf-rfc4743-rfc4744-to-historic</a>]</span> reported in 2012 that these two protocols:<a href="#section-1-5" class="pilcrow">¶</a></p>
+<blockquote id="section-1-6">
+        <p id="section-1-6.1">"have shown very little (if any) implementations and deployment"<a href="#section-1-6.1" class="pilcrow">¶</a></p>
 </blockquote>
-<p id="section-1-13">This document de-assigns these port numbers, that fall in the System
-Ports range.<a href="#section-1-13" class="pilcrow">¶</a></p>
-<p id="section-1-14">Consistent with <span><a href="https://rfc-editor.org/rfc/rfc6335#section-8.2" class="relref">Section 8.2</a> of [<a href="#RFC6335" class="cite xref">RFC6335</a>]</span>, this document does not request to de-assign service names; only port numbers (for specific transport protocols) are de-assigned for better usage of available scarce resources.<a href="#section-1-14" class="pilcrow">¶</a></p>
+<p id="section-1-7">This document de-assigns these port numbers, that fall in the System
+Ports range.<a href="#section-1-7" class="pilcrow">¶</a></p>
+<p id="section-1-8">Consistent with <span><a href="https://rfc-editor.org/rfc/rfc6335#section-8.2" class="relref">Section 8.2</a> of [<a href="#RFC6335" class="cite xref">RFC6335</a>]</span>, this document does not de-assign service names; only port numbers (for specific transport protocols) are de-assigned for better usage of available scarce resources.<a href="#section-1-8" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="security-considerations">
@@ -1356,6 +1333,11 @@ Ports range).<a href="#section-2-1" class="pilcrow">¶</a></p>
       </h2>
 <p id="section-3-1">This document requests IANA to update the "Service Name and Transport Protocol Port Number Registry"
 registry <span>[<a href="#IANA-SERVICE" class="cite xref">IANA-SERVICE</a>]</span> as specified in the following subsections.<a href="#section-3-1" class="pilcrow">¶</a></p>
+<ul class="normal ulEmpty">
+<li class="normal ulEmpty" id="section-3-2.1">
+          <p id="section-3-2.1.1">Note to the RFC Editor: Please replace "THIS_DOCUMENT" with the RFC number to be assigned to this document.<a href="#section-3-2.1.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
 <div id="netconf-over-ssh-service">
 <section id="section-3.1">
         <h3 id="name-netconf-over-ssh-service">
@@ -1418,7 +1400,7 @@ registry <span>[<a href="#IANA-SERVICE" class="cite xref">IANA-SERVICE</a>]</spa
             </tr>
           </tbody>
         </table>
-<p id="section-3.1-5">A note can be added to 830/udp to indicate that the port number used to be assigned to NETCONF over SSH but released by THIS_DOCUMENT.<a href="#section-3.1-5" class="pilcrow">¶</a></p>
+<p id="section-3.1-5">A note should be added to 830/udp to indicate that the port number used to be assigned to NETCONF over SSH but released by THIS_DOCUMENT.<a href="#section-3.1-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="netconf-over-beep-service">
@@ -1482,7 +1464,7 @@ registry <span>[<a href="#IANA-SERVICE" class="cite xref">IANA-SERVICE</a>]</spa
             </tr>
           </tbody>
         </table>
-<p id="section-3.2-5">A note can be added to 831 to indicate that the port number used to be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.<a href="#section-3.2-5" class="pilcrow">¶</a></p>
+<p id="section-3.2-5">A note should be added to 831 to indicate that the port number used to be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.<a href="#section-3.2-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="netconf-over-soap-service">
@@ -1572,7 +1554,7 @@ registry <span>[<a href="#IANA-SERVICE" class="cite xref">IANA-SERVICE</a>]</spa
             </tr>
           </tbody>
         </table>
-<p id="section-3.3-5">A note can be added to 832/833 to indicate that the port numbers used to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.<a href="#section-3.3-5" class="pilcrow">¶</a></p>
+<p id="section-3.3-5">A note should be added to 832/833 to indicate that the port numbers used to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.<a href="#section-3.3-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 </section>
