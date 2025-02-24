@@ -39,32 +39,20 @@ for inappropriate transport protocols or for an Historic NETCONF-related protoco
 
 # Introduction
 
-{{old}} lists currently (per 2025) assigned port numbers {{IANA-SERVICE}}
-for various NETCONF transports.
+The "Service Name and Transport Protocol Port Number Registry"
+{{IANA-SERVICE}} records several NETCONF-related port and service name assignments
+such as 830 for NETCONF over Secure Shell (SSH) {{?RFC6242}}, 831 for NETCONF over the Blocks Extensible Exchange Protocol (BEEP) {{?RFC4744}},
+832 for NETCONF over the Simple Object Access Protocol (SOAP) {{?RFC4743}}, 4334 for NETCONF Call Home {{?RFC8071}},
+and 6513 for NETCONF over Transport Layer Security (TLS) {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}}.
 
-|Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
-|-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconf-ssh  |830|	tcp|	NETCONF over SSH|	{{?RFC6242}} |
-|netconf-ssh|830|udp|	NETCONF over SSH	|{{?RFC6242}} |
-|netconf-beep|831|tcp|	NETCONF over BEEP	| {{?RFC4744}} |
-|netconf-beep|831|udp|	NETCONF over BEEP|	{{?RFC4744}} |
-|netconfsoaphttp	|832|tcp|	NETCONF for SOAP over HTTPS|	{{?RFC4743}} |
-|netconfsoaphttp	|832|udp|	NETCONF for SOAP over HTTPS|	{{?RFC4743}} |
-|netconfsoapbeep	|833|tcp|	NETCONF for SOAP over BEEP|	{{?RFC4743}} |
-|netconfsoapbeep|	833|udp|	NETCONF for SOAP over BEEP	| {{?RFC4743}} |
-|netconf-ch-ssh|4334|tcp|	NETCONF Call Home (SSH) |	{{?RFC8071}} |
-|netconf-ch-tls|4335|tcp|	NETCONF Call Home (TLS) |	{{?RFC8071}} |
-|netconf-tls|6513|tcp|	NETCONF over TLS	| {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}} |
-{: #old title="Excerpt of Current NETCONF-related Assignments"}
+However, many of these assignments are for a transport protocol (i.e., UDP) for which
+the requesting application does not apply.
 
-Many of these assignments are for a transport protocol (UDP) for which
-the requesting application does not apply. Readers may refer to {{Section 7 of ?RFC4744}}, {{Section 7 of ?RFC6242}}, and {{Section 5 of ?RFC4743}} for more details.
-
-It is understood that the assignments listed in {{old}} were made when the practice at that time (prior to 2011)
+It is understood that these assignments were made when the practice at that time (prior to 2011)
 was to automatically assign a port number for both TCP and UDP, even if a request
 was for only one of these transport protocols.
 
-Also, many of the assignments listed in {{old}} are for protocols that are not deployed and which were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}. {{?I-D.ietf-netconf-rfc4743-rfc4744-to-historic}} reported in 2012 that these two protocols:
+Also, many of the assignments are for protocols that are not deployed and which were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}. {{?I-D.ietf-netconf-rfc4743-rfc4744-to-historic}} reported in 2012 that these two protocols:
 
 {: quote}
 > "have shown very little (if any) implementations and deployment"
@@ -103,7 +91,7 @@ NEW:
 |-------------|:--------------:|:-----------:|-------------|:-----------:|
 |netconf-ssh  |830|	tcp|	NETCONF over SSH|	{{?RFC6242}} |
 
-A note should be added to 830/udp to indicate that the port number used to be assigned to NETCONF over SSH but released by THIS_DOCUMENT.
+A note can be added to 830/udp to indicate that the port number used to be assigned to NETCONF over SSH but released by THIS_DOCUMENT.
 
 ## NETCONF over BEEP Service
 
@@ -120,7 +108,7 @@ NEW:
 |-------------|:--------------:|:-----------:|-------------|:-----------:|
 |netconf-beep|||	NETCONF over BEEP	| {{?RFC4744}} THIS_DOCUMENT |
 
-A note should be added to 831 to indicate that the port number used to be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.
+A note can be added to 831 to indicate that the port number used to be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.
 
 ## NETCONF over SOAP Service
 
@@ -140,7 +128,7 @@ NEW:
 |netconfsoaphttp	| | |	NETCONF for SOAP over HTTPS|	{{?RFC4743}} THIS_DOCUMENT |
 |netconfsoapbeep	| | |	NETCONF for SOAP over BEEP |	{{?RFC4743}} THIS_DOCUMENT |
 
-A note should be added to 832/833 to indicate that the port numbers used to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.
+A note can be added to 832/833 to indicate that the port numbers used to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.
 
 
 --- back
