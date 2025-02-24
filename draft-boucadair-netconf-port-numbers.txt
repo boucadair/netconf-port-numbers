@@ -4,8 +4,8 @@
 
 Network Configuration                                       M. Boucadair
 Internet-Draft                                                    Orange
-Intended status: Standards Track                          5 October 2024
-Expires: 8 April 2025
+Intended status: Standards Track                        24 February 2025
+Expires: 28 August 2025
 
 
                      NETCONF Transport Port Numbers
@@ -43,11 +43,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 April 2025.
+   This Internet-Draft will expire on 28 August 2025.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -125,7 +125,7 @@ Table of Contents
    Many of these assignments are for a transport protocol (UDP) for
    which the requesting application does not apply.  For example:
 
-   *  "Using the NETCONF Protocol over "the Blocks Extensible Exchange
+   *  "Using the NETCONF Protocol over the Blocks Extensible Exchange
       Protocol (BEEP)" specification (Section 7 of [RFC4744]) states the
       following:
 
@@ -166,7 +166,7 @@ Table of Contents
 
 2.  Security Considerations
 
-   Releasing back some port number softens the exhaustion risk of
+   Releasing back some port numbers softens the exhaustion risk of
    available port number space (especially the System Ports range).
 
    This document does not describe any protocol.
@@ -343,7 +343,7 @@ Table of Contents
 
 Acknowledgments
 
-   TBC.
+   Thanks to Amanda Baber and Zahed Sarker for the guidance.
 
 Author's Address
 
