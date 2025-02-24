@@ -13,6 +13,8 @@ area: "Operations and Management"
 workgroup: "Network Configuration"
 keyword:
  - de-assign
+ - deallocate
+ - release
 
 
 author:
@@ -57,7 +59,7 @@ for various NETCONF transports.
 Many of these assignments are for a transport protocol (UDP) for which
 the requesting application does not apply. For example:
 
-* "Using the NETCONF Protocol over "the Blocks Extensible Exchange Protocol (BEEP)"
+* "Using the NETCONF Protocol over the Blocks Extensible Exchange Protocol (BEEP)"
 specification ({{Section 7 of ?RFC4744}}) states the following:
 
 {: quote}
@@ -92,7 +94,7 @@ Consistent with {{Section 8.2 of ?RFC6335}}, this document does not request to d
 
 # Security Considerations
 
-Releasing back some port number softens the exhaustion risk of available port number space (especially the System
+Releasing back some port numbers softens the exhaustion risk of available port number space (especially the System
 Ports range).
 
 This document does not describe any protocol.
@@ -162,4 +164,4 @@ A note can be added to 832/833 to indicate that the port numbers used to be assi
 # Acknowledgments
 {:numbered="false"}
 
-TBC.
+Thanks to Amanda Baber and Zahed Sarker for the guidance.
