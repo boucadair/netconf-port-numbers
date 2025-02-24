@@ -33,7 +33,7 @@ informative:
 --- abstract
 
 This document releases NETCONF-related port number IANA assignments that were made
-for inappropriate transport protocols or for an Historic NETCONF-related protocol.
+for inappropriate transport protocols or for Historic NETCONF-related protocols.
 
 --- middle
 
@@ -57,8 +57,7 @@ Also, many of the assignments are for protocols that are not deployed and which 
 {: quote}
 > "have shown very little (if any) implementations and deployment"
 
-This document de-assigns these port numbers, that fall in the System
-Ports range.
+This document de-assigns these port numbers.
 
 Consistent with {{Section 8.2 of ?RFC6335}}, this document does not de-assign service names; only port numbers (for specific transport protocols) are de-assigned for better usage of available scarce resources.
 
