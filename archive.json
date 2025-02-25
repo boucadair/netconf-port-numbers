@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-02-23T00:47:33.452275+00:00",
+  "timestamp": "2025-02-25T00:44:28.686096+00:00",
   "repo": "boucadair/netconf-port-numbers",
   "labels": [
     {
@@ -56,24 +56,26 @@
       "id": "PR_kwDOM3cPec6K0UOY",
       "title": "nits",
       "url": "https://github.com/boucadair/netconf-port-numbers/pull/1",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "boucadair",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-02-11T14:59:25Z",
-      "updatedAt": "2025-02-11T14:59:25Z",
+      "updatedAt": "2025-02-24T06:12:05Z",
       "baseRepository": "boucadair/netconf-port-numbers",
       "baseRefName": "main",
       "baseRefOid": "5b1bf3ad91e214c5cb3f74daae2c363dfc321920",
       "headRepository": "boucadair/netconf-port-numbers",
       "headRefName": "boucadair-patch-1",
       "headRefOid": "620b01bc31e60ad53d9d71ae86133eedabbf27ea",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-02-24T06:12:02Z",
+      "mergedAt": "2025-02-24T06:12:02Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "a73d22f558b3fcb21ec5f42ca4f04dea1c9a3554"
+      },
       "comments": [],
       "reviews": []
     }
