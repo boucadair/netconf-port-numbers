@@ -46,20 +46,18 @@ such as 830 for NETCONF over Secure Shell (SSH) {{?RFC6242}}, 831 for NETCONF ov
 and 6513 for NETCONF over Transport Layer Security (TLS) {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}}.
 
 However, many of these assignments are for a transport protocol (i.e., UDP) for which
-the requesting application does not apply.
-
-It is understood that these assignments were made when the practice at that time (prior to 2011)
+the requesting application does not apply. It is understood that these assignments were made when the practice at that time (prior to 2011)
 was to automatically assign a port number for both TCP and UDP, even if a request
 was for only one of these transport protocols.
 
-Also, many of the assignments are for protocols that are not deployed and which were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}. {{?I-D.ietf-netconf-rfc4743-rfc4744-to-historic}} reported in 2012 that these two protocols:
+Also, many of the assignments are for protocols that are not deployed and were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}. {{?I-D.ietf-netconf-rfc4743-rfc4744-to-historic}} reported in 2012 that these two protocols:
 
 {: quote}
 > "have shown very little (if any) implementations and deployment"
 
 This document de-assigns these port numbers.
 
-Consistent with {{Section 8.2 of ?RFC6335}}, this document does not de-assign service names; only port numbers (for specific transport protocols) are de-assigned for better usage of available scarce resources.
+Consistent with {{Section 8.2 of !RFC6335}}, this document does not de-assign service names; only port numbers are de-assigned for better usage of available scarce resources.
 
 # Security Considerations
 
