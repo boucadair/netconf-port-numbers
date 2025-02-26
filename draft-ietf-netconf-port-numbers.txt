@@ -4,8 +4,8 @@
 
 Network Configuration                                       M. Boucadair
 Internet-Draft                                                    Orange
-Intended status: Standards Track                        24 February 2025
-Expires: 28 August 2025
+Intended status: Standards Track                        26 February 2025
+Expires: 30 August 2025
 
 
                      NETCONF Transport Port Numbers
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 August 2025.
+   This Internet-Draft will expire on 30 August 2025.
 
 Copyright Notice
 
@@ -67,7 +67,9 @@ Table of Contents
      3.1.  NETCONF over SSH Service
      3.2.  NETCONF over BEEP Service
      3.3.  NETCONF over SOAP Service
-   4.  Informative References
+   4.  References
+     4.1.  Normative References
+     4.2.  Informative References
    Acknowledgments
    Author's Address
 
@@ -83,15 +85,14 @@ Table of Contents
    [RFC7589][I-D.ietf-netconf-over-tls13].
 
    However, many of these assignments are for a transport protocol
-   (i.e., UDP) for which the requesting application does not apply.
-
-   It is understood that these assignments were made when the practice
-   at that time (prior to 2011) was to automatically assign a port
-   number for both TCP and UDP, even if a request was for only one of
-   these transport protocols.
+   (i.e., UDP) for which the requesting application does not apply.  It
+   is understood that these assignments were made when the practice at
+   that time (prior to 2011) was to automatically assign a port number
+   for both TCP and UDP, even if a request was for only one of these
+   transport protocols.
 
    Also, many of the assignments are for protocols that are not deployed
-   and which were tagged as Historic: [RFC4743] and [RFC4744].
+   and were tagged as Historic: [RFC4743] and [RFC4744].
    [I-D.ietf-netconf-rfc4743-rfc4744-to-historic] reported in 2012 that
    these two protocols:
 
@@ -100,9 +101,8 @@ Table of Contents
    This document de-assigns these port numbers.
 
    Consistent with Section 8.2 of [RFC6335], this document does not de-
-   assign service names; only port numbers (for specific transport
-   protocols) are de-assigned for better usage of available scarce
-   resources.
+   assign service names; only port numbers are de-assigned for better
+   usage of available scarce resources.
 
 2.  Security Considerations
 
@@ -231,7 +231,18 @@ Table of Contents
    A note can be added to 832/833 to indicate that the port numbers used
    to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.
 
-4.  Informative References
+4.  References
+
+4.1.  Normative References
+
+   [RFC6335]  Cotton, M., Eggert, L., Touch, J., Westerlund, M., and S.
+              Cheshire, "Internet Assigned Numbers Authority (IANA)
+              Procedures for the Management of the Service Name and
+              Transport Protocol Port Number Registry", BCP 165,
+              RFC 6335, DOI 10.17487/RFC6335, August 2011,
+              <https://www.rfc-editor.org/rfc/rfc6335>.
+
+4.2.  Informative References
 
    [I-D.ietf-netconf-over-tls13]
               Turner, S. and R. Housley, "Updates to Using the NETCONF
@@ -266,13 +277,6 @@ Table of Contents
    [RFC6242]  Wasserman, M., "Using the NETCONF Protocol over Secure
               Shell (SSH)", RFC 6242, DOI 10.17487/RFC6242, June 2011,
               <https://www.rfc-editor.org/rfc/rfc6242>.
-
-   [RFC6335]  Cotton, M., Eggert, L., Touch, J., Westerlund, M., and S.
-              Cheshire, "Internet Assigned Numbers Authority (IANA)
-              Procedures for the Management of the Service Name and
-              Transport Protocol Port Number Registry", BCP 165,
-              RFC 6335, DOI 10.17487/RFC6335, August 2011,
-              <https://www.rfc-editor.org/rfc/rfc6335>.
 
    [RFC7589]  Badra, M., Luchuk, A., and J. Schoenwaelder, "Using the
               NETCONF Protocol over Transport Layer Security (TLS) with
