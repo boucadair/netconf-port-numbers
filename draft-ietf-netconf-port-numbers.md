@@ -58,7 +58,7 @@ Consistent with {{Section 8.2 of !RFC6335}}, this document does not de-assign se
 # Security Considerations
 
 Releasing back some port numbers softens the exhaustion risk of available port number space (especially the System
-Ports range).
+Ports range ({{Section 6 of !RFC6335}})).
 
 This document does not describe any protocol.
 
@@ -130,3 +130,5 @@ A note can be added to 832/833 to indicate that the port numbers used to be assi
 {:numbered="false"}
 
 Thanks to Amanda Baber and Zahed Sarker for the guidance.
+
+Thanks to Kent Watsen for the Shepherd review.
