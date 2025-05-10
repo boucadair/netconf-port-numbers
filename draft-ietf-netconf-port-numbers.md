@@ -46,10 +46,7 @@ such as 830 for NETCONF over Secure Shell (SSH) {{?RFC6242}}, 831 for NETCONF ov
 and 6513 for NETCONF over Transport Layer Security (TLS) {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}}.
 
 However, many of these assignments are for a transport protocol (i.e., UDP) for which
-the requesting application does not apply. Also, many of the assignments are for protocols that are not deployed and were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}. {{?I-D.ietf-netconf-rfc4743-rfc4744-to-historic}} reported in 2012 that these two protocols:
-
-{: quote}
-> "have shown very little (if any) implementations and deployment"
+the requesting application does not apply. Also, many of the assignments are for protocols that are not deployed and were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}.
 
 This document de-assigns these unused port numbers.
 
