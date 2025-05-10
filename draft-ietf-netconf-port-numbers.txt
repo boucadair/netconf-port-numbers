@@ -4,8 +4,8 @@
 
 Network Configuration                                       M. Boucadair
 Internet-Draft                                                    Orange
-Intended status: Standards Track                              9 May 2025
-Expires: 10 November 2025
+Intended status: Standards Track                             10 May 2025
+Expires: 11 November 2025
 
 
                      NETCONF Transport Port Numbers
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 November 2025.
+   This Internet-Draft will expire on 11 November 2025.
 
 Copyright Notice
 
@@ -88,10 +88,6 @@ Table of Contents
    (i.e., UDP) for which the requesting application does not apply.
    Also, many of the assignments are for protocols that are not deployed
    and were tagged as Historic: [RFC4743] and [RFC4744].
-   [I-D.ietf-netconf-rfc4743-rfc4744-to-historic] reported in 2012 that
-   these two protocols:
-
-   |  "have shown very little (if any) implementations and deployment"
 
    This document de-assigns these unused port numbers.
 
@@ -247,13 +243,6 @@ Table of Contents
               draft-ietf-netconf-over-tls13-04, 18 January 2024,
               <https://datatracker.ietf.org/doc/html/draft-ietf-netconf-
               over-tls13-04>.
-
-   [I-D.ietf-netconf-rfc4743-rfc4744-to-historic]
-              Wijnen, B., "RFC4743 and RFC4744 to Historic status", Work
-              in Progress, Internet-Draft, draft-ietf-netconf-
-              rfc4743-rfc4744-to-historic-00, 7 September 2012,
-              <https://datatracker.ietf.org/doc/html/draft-ietf-netconf-
-              rfc4743-rfc4744-to-historic-00>.
 
    [IANA-SERVICE]
               "Service Name and Transport Protocol Port Number
