@@ -32,7 +32,7 @@ informative:
 
 --- abstract
 
-This document releases NETCONF-related port number IANA assignments that have not stood the test of time 
+This document releases NETCONF-related port number IANA assignments that have not stood the test of time
 (e.g., assignments for Historic NETCONF-related protocols).
 
 --- middle
