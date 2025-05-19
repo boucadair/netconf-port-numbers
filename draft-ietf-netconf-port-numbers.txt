@@ -4,8 +4,8 @@
 
 Network Configuration                                       M. Boucadair
 Internet-Draft                                                    Orange
-Intended status: Standards Track                             10 May 2025
-Expires: 11 November 2025
+Intended status: Standards Track                             19 May 2025
+Expires: 20 November 2025
 
 
                      NETCONF Transport Port Numbers
@@ -14,8 +14,8 @@ Expires: 11 November 2025
 Abstract
 
    This document releases NETCONF-related port number IANA assignments
-   that were made for inappropriate transport protocols or for Historic
-   NETCONF-related protocols.
+   that have not stood the test of time (e.g., assignments for Historic
+   NETCONF-related protocols).
 
 Discussion Venues
 
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 November 2025.
+   This Internet-Draft will expire on 20 November 2025.
 
 Copyright Notice
 
@@ -275,7 +275,8 @@ Table of Contents
 
 Acknowledgments
 
-   Thanks to Amanda Baber and Zahed Sarker for the guidance.
+   Thanks to Amanda Baber and Zahed Sarker for the guidance.  Thanks to
+   Tom Petch for the comments.
 
    Thanks to Kent Watsen for the Shepherd review.
 
