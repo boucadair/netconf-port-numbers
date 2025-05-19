@@ -32,8 +32,8 @@ informative:
 
 --- abstract
 
-This document releases NETCONF-related port number IANA assignments that were made
-for inappropriate transport protocols or for Historic NETCONF-related protocols.
+This document releases NETCONF-related port number IANA assignments that have not stood the test of time 
+(e.g., assignments for Historic NETCONF-related protocols).
 
 --- middle
 
@@ -126,6 +126,6 @@ A note can be added to 832/833 to indicate that the port numbers used to be assi
 # Acknowledgments
 {:numbered="false"}
 
-Thanks to Amanda Baber and Zahed Sarker for the guidance.
+Thanks to Amanda Baber and Zahed Sarker for the guidance. Thanks to Tom Petch for the comments.
 
 Thanks to Kent Watsen for the Shepherd review.
