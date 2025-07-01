@@ -52,12 +52,16 @@ This document de-assigns these unused port numbers.
 
 Consistent with {{Section 8.2 of !RFC6335}}, this document does not de-assign service names; only port numbers are de-assigned for better usage of available scarce resources.
 
-# Security Considerations
-
 Releasing back some port numbers softens the exhaustion risk of available port number space (especially the System
 Ports range ({{Section 6 of !RFC6335}})).
 
-This document does not describe any protocol.
+# Operational Considerations
+
+There are no known implementations and deployments of protocols that rely upon the port numbers released back by this document. As such, there are no new operations or manageability requirements introduced by this document.
+
+# Security Considerations
+
+This document does not describe any protocol. As such, this document does not introduce any new security vulnerability.
 
 # IANA Considerations
 
@@ -128,4 +132,4 @@ A note can be added to 832/833 to indicate that the port numbers used to be assi
 
 Thanks to Amanda Baber and Zahed Sarker for the guidance. Thanks to Tom Petch for the comments.
 
-Thanks to Kent Watsen for the Shepherd review.
+Thanks to Kent Watsen for the Shepherd review and Mahesh Jethanandani for the AD review.
