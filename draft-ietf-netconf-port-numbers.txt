@@ -288,8 +288,8 @@ Acknowledgments
    Tom Petch for the comments.
 
    Thanks to Kent Watsen for the Shepherd review, Mahesh Jethanandani
-   for the AD review, Bernie Volz for the intdir review, and Roni Even
-   for genart review.
+   for the AD review, Bernie Volz for the intdir review, Roni Even for
+   genart review, and Barry Leiba for artart review.
 
 Author's Address
 
