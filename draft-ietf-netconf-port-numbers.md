@@ -133,4 +133,5 @@ A note can be added to 832/833 to indicate that the port numbers used to be assi
 Thanks to Amanda Baber and Zahed Sarker for the guidance. Thanks to Tom Petch for the comments.
 
 Thanks to Kent Watsen for the Shepherd review, Mahesh Jethanandani for the AD review,
-Bernie Volz for the intdir review, Roni Even for genart review, and Barry Leiba for artart review.
+Bernie Volz for the intdir review, Roni Even for genart review, Barry Leiba for artart review, and
+Dhruv Dhody for the opsdir review.
