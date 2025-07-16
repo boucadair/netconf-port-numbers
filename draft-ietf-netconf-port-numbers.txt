@@ -87,8 +87,8 @@ Table of Contents
 
    However, many of these assignments are for a transport protocol
    (i.e., UDP) for which the requesting application does not apply.
-   Also, many of the assignments are for protocols that are not deployed
-   and were tagged as Historic: [RFC4743] and [RFC4744].
+   Also, several of the assignments are for protocols that are not
+   deployed and were tagged as Historic: [RFC4743] and [RFC4744].
 
    This document de-assigns these unused port numbers.
 
@@ -289,8 +289,8 @@ Acknowledgments
 
    Thanks to Kent Watsen for the Shepherd review, Mahesh Jethanandani
    for the AD review, Bernie Volz for the intdir review, Roni Even for
-   genart review, Barry Leiba for artart review, and Dhruv Dhody for the
-   opsdir review.
+   genart review, Barry Leiba for artart review, Dhruv Dhody for the
+   opsdir review, and Michael Tüxen for tsv-art review.
 
 Author's Address
 
