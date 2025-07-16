@@ -46,7 +46,7 @@ such as 830 for NETCONF over Secure Shell (SSH) {{?RFC6242}}, 831 for NETCONF ov
 and 6513 for NETCONF over Transport Layer Security (TLS) {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}}.
 
 However, many of these assignments are for a transport protocol (i.e., UDP) for which
-the requesting application does not apply. Also, many of the assignments are for protocols that are not deployed and were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}.
+the requesting application does not apply. Also, several of the assignments are for protocols that are not deployed and were tagged as Historic: {{?RFC4743}} and {{?RFC4744}}.
 
 This document de-assigns these unused port numbers.
 
@@ -133,5 +133,5 @@ A note can be added to 832/833 to indicate that the port numbers used to be assi
 Thanks to Amanda Baber and Zahed Sarker for the guidance. Thanks to Tom Petch for the comments.
 
 Thanks to Kent Watsen for the Shepherd review, Mahesh Jethanandani for the AD review,
-Bernie Volz for the intdir review, Roni Even for genart review, Barry Leiba for artart review, and
-Dhruv Dhody for the opsdir review.
+Bernie Volz for the intdir review, Roni Even for genart review, Barry Leiba for artart review,
+Dhruv Dhody for the opsdir review, and Michael Tüxen for tsv-art review.
