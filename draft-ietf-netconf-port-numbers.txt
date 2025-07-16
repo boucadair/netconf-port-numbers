@@ -4,8 +4,8 @@
 
 Network Configuration                                       M. Boucadair
 Internet-Draft                                                    Orange
-Intended status: Standards Track                             7 July 2025
-Expires: 8 January 2026
+Intended status: Standards Track                            16 July 2025
+Expires: 17 January 2026
 
 
                      NETCONF Transport Port Numbers
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 January 2026.
+   This Internet-Draft will expire on 17 January 2026.
 
 Copyright Notice
 
@@ -289,7 +289,8 @@ Acknowledgments
 
    Thanks to Kent Watsen for the Shepherd review, Mahesh Jethanandani
    for the AD review, Bernie Volz for the intdir review, Roni Even for
-   genart review, and Barry Leiba for artart review.
+   genart review, Barry Leiba for artart review, and Dhruv Dhody for the
+   opsdir review.
 
 Author's Address
 
