@@ -4,8 +4,8 @@
 
 Network Configuration                                       M. Boucadair
 Internet-Draft                                                    Orange
-Intended status: Standards Track                            16 July 2025
-Expires: 17 January 2026
+Intended status: Standards Track                            17 July 2025
+Expires: 18 January 2026
 
 
                      NETCONF Transport Port Numbers
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 January 2026.
+   This Internet-Draft will expire on 18 January 2026.
 
 Copyright Notice
 
@@ -95,10 +95,6 @@ Table of Contents
    Consistent with Section 8.2 of [RFC6335], this document does not de-
    assign service names; only port numbers are de-assigned for better
    usage of available scarce resources.
-
-   Releasing back some port numbers softens the exhaustion risk of
-   available port number space (especially the System Ports range
-   (Section 6 of [RFC6335])).
 
 2.  Operational Considerations
 
