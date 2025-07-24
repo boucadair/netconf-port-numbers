@@ -87,10 +87,10 @@ Table of Contents
    [RFC7589][I-D.ietf-netconf-over-tls13].
 
    However, three of these assignments are for protocols that are not
-   deployed and were tagged as Historic ([RFC4743] and [RFC4744]) and
-   one such assignment is for a transport protocol (i.e., UDP) for which
-   the requesting application does not apply.  All these assignments are
-   undesirable.
+   deployed and were tagged as Historic ([RFC4743] and [RFC4744]).
+   Also, one such assignment is for a transport protocol (i.e., UDP) for
+   which the requesting application does not apply.  All these
+   assignments are undesirable.
 
    This document de-assigns these unused port numbers.
 
