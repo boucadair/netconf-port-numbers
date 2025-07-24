@@ -33,7 +33,7 @@ informative:
 --- abstract
 
 This document releases NETCONF-related port number IANA assignments that have not stood the test of time
-(e.g., assignments for Historic NETCONF-related protocols or for a transport not used by a protocol).
+(e.g., assignments for Historic NETCONF-related protocols or for a transport not used by a given NETCONF-related protocol).
 
 --- middle
 
