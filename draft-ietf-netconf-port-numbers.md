@@ -45,7 +45,7 @@ such as 830 for NETCONF over Secure Shell (SSH) {{?RFC6242}}, 831 for NETCONF ov
 832 for NETCONF over the Simple Object Access Protocol (SOAP) {{?RFC4743}}, 4334 for NETCONF Call Home {{?RFC8071}},
 and 6513 for NETCONF over Transport Layer Security (TLS) {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}}.
 
-However, three of these assignments are for protocols that are not deployed and were tagged as Historic ({{?RFC4743}} and {{?RFC4744}}) and one such assignment is for a transport protocol (i.e., UDP) for which the requesting application does not apply. All these assignments are undesirable.
+However, three of these assignments are for protocols that are not deployed and were tagged as Historic ({{?RFC4743}} and {{?RFC4744}}). Also, one such assignment is for a transport protocol (i.e., UDP) for which the requesting application does not apply. All these assignments are undesirable.
 
 This document de-assigns these unused port numbers.
 
