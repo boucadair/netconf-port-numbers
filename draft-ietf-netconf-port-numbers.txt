@@ -4,19 +4,17 @@
 
 Network Configuration                                       M. Boucadair
 Internet-Draft                                                    Orange
-Intended status: Standards Track                            24 July 2025
-Expires: 25 January 2026
+Intended status: Standards Track                        8 September 2025
+Expires: 12 March 2026
 
 
-                     NETCONF Transport Port Numbers
+               Updates to NETCONF Transport Port Numbers
                  draft-ietf-netconf-port-numbers-latest
 
 Abstract
 
    This document releases NETCONF-related port number IANA assignments
-   that have not stood the test of time (e.g., assignments for Historic
-   NETCONF-related protocols or for a transport not used by a given
-   NETCONF-related protocol).
+   that have not stood the test of time.
 
 Discussion Venues
 
@@ -44,7 +42,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 January 2026.
+   This Internet-Draft will expire on 12 March 2026.
 
 Copyright Notice
 
@@ -66,9 +64,8 @@ Table of Contents
    2.  Operational Considerations
    3.  Security Considerations
    4.  IANA Considerations
-     4.1.  NETCONF over SSH Service
-     4.2.  NETCONF over BEEP Service
-     4.3.  NETCONF over SOAP Service
+     4.1.  NETCONF over BEEP Service
+     4.2.  NETCONF over SOAP Service
    5.  References
      5.1.  Normative References
      5.2.  Informative References
@@ -87,10 +84,8 @@ Table of Contents
    [RFC7589][I-D.ietf-netconf-over-tls13].
 
    However, three of these assignments are for protocols that are not
-   deployed and were tagged as Historic ([RFC4743] and [RFC4744]).
-   Also, one such assignment is for a transport protocol (i.e., UDP) for
-   which the requesting application does not apply.  All these
-   assignments are undesirable.
+   deployed and were tagged as Historic ([RFC4743] and [RFC4744]).  All
+   these assignments are undesirable.
 
    This document de-assigns these unused port numbers.
 
@@ -122,39 +117,7 @@ Table of Contents
       Note to the RFC Editor: Please replace "THIS_DOCUMENT" with the
       RFC number to be assigned to this document.
 
-4.1.  NETCONF over SSH Service
-
-   OLD:
-
-   +==============+=============+===========+=============+===========+
-   | Service Name | Port Number | Transport | Description | Reference |
-   |              |             |  Protocol |             |           |
-   +==============+=============+===========+=============+===========+
-   | netconf-ssh  |     830     |    tcp    | NETCONF     | [RFC6242] |
-   |              |             |           | over SSH    |           |
-   +--------------+-------------+-----------+-------------+-----------+
-   | netconf-ssh  |     830     |    udp    | NETCONF     | [RFC6242] |
-   |              |             |           | over SSH    |           |
-   +--------------+-------------+-----------+-------------+-----------+
-
-                                 Table 1
-
-   NEW:
-
-   +==============+=============+===========+=============+===========+
-   | Service Name | Port Number | Transport | Description | Reference |
-   |              |             |  Protocol |             |           |
-   +==============+=============+===========+=============+===========+
-   | netconf-ssh  |     830     |    tcp    | NETCONF     | [RFC6242] |
-   |              |             |           | over SSH    |           |
-   +--------------+-------------+-----------+-------------+-----------+
-
-                                 Table 2
-
-   A note can be added to 830/udp to indicate that the port number used
-   to be assigned to NETCONF over SSH but released by THIS_DOCUMENT.
-
-4.2.  NETCONF over BEEP Service
+4.1.  NETCONF over BEEP Service
 
    OLD:
 
@@ -169,7 +132,7 @@ Table of Contents
    |              |             |           | over BEEP   |           |
    +--------------+-------------+-----------+-------------+-----------+
 
-                                 Table 3
+                                 Table 1
 
    NEW:
 
@@ -181,12 +144,12 @@ Table of Contents
     |              |        |           | over BEEP   | THIS_DOCUMENT |
     +--------------+--------+-----------+-------------+---------------+
 
-                                  Table 4
+                                  Table 2
 
    A note can be added to 831 to indicate that the port number used to
    be assigned to NETCONF over BEEP but released by THIS_DOCUMENT.
 
-4.3.  NETCONF over SOAP Service
+4.2.  NETCONF over SOAP Service
 
    OLD:
 
@@ -211,7 +174,7 @@ Table of Contents
     |                 |        |           | BEEP        |           |
     +-----------------+--------+-----------+-------------+-----------+
 
-                                 Table 5
+                                 Table 3
 
    NEW:
 
@@ -228,7 +191,7 @@ Table of Contents
    |                 |      |           | BEEP        |               |
    +-----------------+------+-----------+-------------+---------------+
 
-                                 Table 6
+                                 Table 4
 
    A note can be added to 832/833 to indicate that the port numbers used
    to be assigned to NETCONF over SOAP but released by THIS_DOCUMENT.
@@ -289,9 +252,9 @@ Acknowledgments
    Tom Petch for the comments.
 
    Thanks to Kent Watsen for the Shepherd review, Mahesh Jethanandani
-   for the AD review, Bernie Volz for the intdir review, Roni Even for
-   genart review, Barry Leiba for artart review, Dhruv Dhody for the
-   opsdir review, and Michael Tüxen for tsv-art review.
+   for the AD review, Bernie Volz for the INTDIR review, Roni Even for
+   genart review, Barry Leiba for ARTART review, Dhruv Dhody for the
+   OPSDIR review, and Michael Tüxen for TSVART review.
 
 Author's Address
 
