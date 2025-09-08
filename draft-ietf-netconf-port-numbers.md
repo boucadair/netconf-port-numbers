@@ -1,5 +1,5 @@
 ---
-title: "NETCONF Transport Port Numbers"
+title: "Updates to NETCONF Transport Port Numbers"
 abbrev: "NETCONF Transport Port Numbers"
 category: std
 
@@ -32,8 +32,7 @@ informative:
 
 --- abstract
 
-This document releases NETCONF-related port number IANA assignments that have not stood the test of time
-(e.g., assignments for Historic NETCONF-related protocols or for a transport not used by a given NETCONF-related protocol).
+This document releases NETCONF-related port number IANA assignments that have not stood the test of time.
 
 --- middle
 
@@ -45,7 +44,7 @@ such as 830 for NETCONF over Secure Shell (SSH) {{?RFC6242}}, 831 for NETCONF ov
 832 for NETCONF over the Simple Object Access Protocol (SOAP) {{?RFC4743}}, 4334 for NETCONF Call Home {{?RFC8071}},
 and 6513 for NETCONF over Transport Layer Security (TLS) {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}}.
 
-However, three of these assignments are for protocols that are not deployed and were tagged as Historic ({{?RFC4743}} and {{?RFC4744}}). Also, one such assignment is for a transport protocol (i.e., UDP) for which the requesting application does not apply. All these assignments are undesirable.
+However, three of these assignments are for protocols that are not deployed and were tagged as Historic ({{?RFC4743}} and {{?RFC4744}}). All these assignments are undesirable.
 
 This document de-assigns these unused port numbers.
 
@@ -67,23 +66,6 @@ registry {{IANA-SERVICE}} as specified in the following subsections.
 Unassigned allocations are marked per {{Section 8.2 of !RFC6335}}. These actions are not repeated here.
 
 > Note to the RFC Editor: Please replace "THIS_DOCUMENT" with the RFC number to be assigned to this document.
-
-## NETCONF over SSH Service
-
-OLD:
-
-|Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
-|-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconf-ssh  |830|	tcp|	NETCONF over SSH|	{{?RFC6242}} |
-|netconf-ssh|830|udp|	NETCONF over SSH	|{{?RFC6242}} |
-
-NEW:
-
-|Service Name |  	Port Number  |	Transport Protocol  |	Description  |	Reference  |
-|-------------|:--------------:|:-----------:|-------------|:-----------:|
-|netconf-ssh  |830|	tcp|	NETCONF over SSH|	{{?RFC6242}} |
-
-A note can be added to 830/udp to indicate that the port number used to be assigned to NETCONF over SSH but released by THIS_DOCUMENT.
 
 ## NETCONF over BEEP Service
 
@@ -131,5 +113,5 @@ A note can be added to 832/833 to indicate that the port numbers used to be assi
 Thanks to Amanda Baber and Zahed Sarker for the guidance. Thanks to Tom Petch for the comments.
 
 Thanks to Kent Watsen for the Shepherd review, Mahesh Jethanandani for the AD review,
-Bernie Volz for the intdir review, Roni Even for genart review, Barry Leiba for artart review,
-Dhruv Dhody for the opsdir review, and Michael Tüxen for tsv-art review.
+Bernie Volz for the INTDIR review, Roni Even for genart review, Barry Leiba for ARTART review,
+Dhruv Dhody for the OPSDIR review, and Michael Tüxen for TSVART review.
