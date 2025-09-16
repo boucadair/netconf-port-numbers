@@ -32,7 +32,7 @@ informative:
 
 --- abstract
 
-This document releases NETCONF-related port number IANA assignments that have not stood the test of time.
+This document releases NETCONF-related port number IANA assignments for services that have not been in use in production networks.
 
 --- middle
 
@@ -44,7 +44,7 @@ such as 830 for NETCONF over Secure Shell (SSH) {{?RFC6242}}, 831 for NETCONF ov
 832 for NETCONF over the Simple Object Access Protocol (SOAP) {{?RFC4743}}, 4334 for NETCONF Call Home {{?RFC8071}},
 and 6513 for NETCONF over Transport Layer Security (TLS) {{?RFC7589}}{{?I-D.ietf-netconf-over-tls13}}.
 
-However, three of these assignments are for protocols that are not deployed and were tagged as Historic ({{?RFC4743}} and {{?RFC4744}}). All these assignments are undesirable.
+However, three of these assignments (831, 832, and 833) are for protocols that are not deployed and were tagged as Historic ({{?RFC4743}} and {{?RFC4744}}). All these assignments are needed for deployment.
 
 This document de-assigns these unused port numbers.
 
@@ -52,18 +52,22 @@ Consistent with {{Section 8.2 of !RFC6335}}, this document does not de-assign se
 
 # Operational Considerations
 
-There are no known implementations and deployments of protocols that rely upon the port numbers released back by this document. As such, there are no new operations or manageability requirements introduced by this document.
+There are no known implementations and deployments of protocols that rely upon the port numbers released back by this document.
+
+Existing configurations (if any) that associate the released port numbers with the service names "netconf-beep" and "netconfsoaphttp" need to be reassessed and updated according to the actions in {{sec-IANA}}.
+
+Other than that, there are no new operations or manageability requirements introduced by this document.
 
 # Security Considerations
 
 This document does not describe any protocol. As such, this document does not introduce any new security vulnerability.
 
-# IANA Considerations
+# IANA Considerations {#sec-IANA}
 
 This document requests IANA to update the "Service Name and Transport Protocol Port Number Registry"
 registry {{IANA-SERVICE}} as specified in the following subsections.
 
-Unassigned allocations are marked per {{Section 8.2 of !RFC6335}}. These actions are not repeated here.
+De-assigned allocations are marked per {{Section 8.2 of !RFC6335}}. These actions are not repeated here.
 
 > Note to the RFC Editor: Please replace "THIS_DOCUMENT" with the RFC number to be assigned to this document.
 
@@ -114,4 +118,6 @@ Thanks to Amanda Baber and Zahed Sarker for the guidance. Thanks to Tom Petch fo
 
 Thanks to Kent Watsen for the Shepherd review, Mahesh Jethanandani for the AD review,
 Bernie Volz for the INTDIR review, Roni Even for genart review, Barry Leiba for ARTART review,
-Dhruv Dhody for the OPSDIR review, and Michael Tüxen for TSVART review.
+Dhruv Dhody for the OPSDIR review, Michael Tüxen for TSVART review, and Joe Touch for the port review.
+
+Thanks to Gorry Fairhurst for the IESG review.
