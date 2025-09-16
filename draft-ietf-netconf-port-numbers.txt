@@ -85,7 +85,7 @@ Table of Contents
 
    However, three of these assignments (831, 832, and 833) are for
    protocols that are not deployed and were tagged as Historic
-   ([RFC4743] and [RFC4744]).  All these assignments are needed for
+   ([RFC4743] and [RFC4744]).  All these assignments are not needed for
    deployment.
 
    This document de-assigns these unused port numbers.
